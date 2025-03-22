@@ -1,0 +1,40 @@
+root {
+    --primary-color: #119DA4;
+    --secondary-color: #4B3F72;
+    --accent1-color: #19647E;
+    --accent2-color: #FFC857;
+}
+
+main {
+    max-width: 840px;
+    background-color: #4B3F72
+}
+header {
+    border: 1px solid rgb(0 0 0 / 0.2);
+    margin: 1 rem;
+    width: 20rem;
+    text-align: center;
+}
+
+header img {
+    width: 800px;
+}
+h1, h2, h3 {
+    font-family: acme;
+    width: 20rem;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: i rem;
+    background-color: #19647E;
+    color: #333;
+    text-align: center;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
