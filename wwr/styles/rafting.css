@@ -3,10 +3,15 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    /* font-family: ; */
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
+      
+    /* text-decoration: none; */
+    /* box-sizing: border-box; */
+    /* font-family: ; */
+/* } */
 
 header {
     display: flex;
@@ -16,6 +21,9 @@ header {
     color: white;
 }
 
+.logo img {
+    width: 100px;
+}
 .nav-menu {
     display: inline;
     margin: 0 15 px;
@@ -29,19 +37,24 @@ header {
 .hero {
     margin: 10px auto;
     position: relative;
+    /* text-align: center; */
+    /* padding: 20px; */
 }
 
 .hero img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .ups {
     position: absolute;
+    max-width: 100%;
+    height: auto;
     top: 25x;
     right: 25x;
-    float: right;
+    text-align: right;
+    /* float: right; */
     /* background: */
     border: 1px solid #000;
     padding: 0.65rem;
