@@ -1,0 +1,45 @@
+/* General Reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative; /* Enables positioning child elements */
+    width: 100%;
+    max-width: 800px; /* Adjust this as needed */
+    margin: auto; /* Centers the container */
+}
+
+/* Background Image */
+.background {
+    width: 100%;
+    height: auto;
+}
+
+/* Overlay Section */
+.overlay {
+    position: absolute; /* Allows layering over the background */
+    top: 50%; /* Centers vertically (adjust as needed) */
+    left: 50%; /* Centers horizontally (adjust as needed) */
+    transform: translate(-50%, -50%); /* Adjusts the alignment */
+    text-align: center; /* Centers text and image inside this box */
+}
+
+.smaller-image {
+    width: 50%; /* Shrinks the size of the smaller image */
+    height: auto;
+    margin-bottom: 10px; /* Adds space below the image */
+}
+
+.text {
+    color: white; /* Sets text color for visibility */
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 5px 10px; /* Adds spacing around the text */
+    border-radius: 8px; /* Softens corners */
+}
+
+}
