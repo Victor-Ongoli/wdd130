@@ -1,7 +1,7 @@
 :root {
     background-color: #19647E;
-    color: #FFC857;
-    font-family: Winky-Sans;
+    color: "https://coolors.co/palette/28264b-ffc857-119da4-19647e";
+    font-family: "Rock salt";
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     display: grid;
@@ -31,6 +31,8 @@
 
 .hero {
     position: relative;
+    width: 100%;
+    height: auto;
     border: 1px solid #000;
     display: grid;
     background-color: rgb(232, 69, 142)
@@ -55,20 +57,19 @@
 
 article {
     position: absolute;
-    width: 100%;
+    width: 98%;
+    height: auto;
     top: 250px;
     display: cover;
     gap: 20px;
-    margin: 12 0 0px 100px;
-    background-color: blue;
+    /* margin: 12 0 0px 100px; */
+    background-color: rgb(137, 5, 238);
     padding: 1rem;
-    box-shadow: 0 0 30px #098;
     border: 1px solid #000;
-    /* opacity: #000; */
 }
 
 article p {
-    background-color: white;
+    background-color: rgb(5, 137, 238);
     color: black;
     border: 2px solid #000;
     /* display: cover; */
@@ -81,12 +82,12 @@ article p {
 
 .article-image {
     position: absolute;
+    top: 33px;
     float: right;
-    padding: 5px;
-    margin: 0 0 100px 1000px;
-    padding: 1rem;
-    border: 1px solid #000;
-    box-shadow: 0 0 30px #2277e6;
+    /* padding: 5px; */
+    margin: 0 0 0 1100px;
+    /* border: 1px solid #000; */
+    /* box-shadow: 0 0 30px #2277e6; */
     /* border-radius: 10px; */
 }
 
