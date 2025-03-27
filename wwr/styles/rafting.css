@@ -1,11 +1,10 @@
 :root {
-    background-color: #19647E;
-    color: "https://coolors.co/palette/28264b-ffc857-119da4-19647e";
+    background-color: #28264b;
     font-family: "Rock salt";
+    font-weight: 400;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     display: grid;
-    border: 1px solid #8d0a68;
     width: 100px;
     height: auto;
 }
@@ -19,17 +18,26 @@
     width: 100px;
     height: auto;
     border: 1px solid #000;
-    display: cover;
 }
 
 .links {
     /* display: inline block; */
     font-weight: bold;
     padding: 1rem;
-    background-color: yellow;
+    background-color: ;
     text-decoration: none;
-    /* display: inline-block; */
     border: 1px solid #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: "Winky Sans", sans-serif;
+    font-weight: 600;
+
+
 }
 
 .hero {
@@ -54,7 +62,7 @@
     transform: translate(10%, 10%);
     color:  black;
     font-size: 1.5em;
-    /* background-color: red; */
+    background-color: #ffc857;
     padding: 1rem;
 }
 
@@ -65,20 +73,19 @@ article {
     top: 250px;
     margin: 0 0 0 100px;
     display: flex;
-    background-color: rgb(137, 5, 238);
+    background-color: #19647e;
     padding: 1rem;
     border: 1px solid #000;
-    opacity: 0.5px;
+    /* opacity: 0.5; */
 }
 
 article p {
-    /* background-color: rgb(5, 137, 238); */
+    background-color: rgb(5, 137, 238);
     color: black;
     /* border: 2px solid #000; */
-    /* display: cover; */
     font-size: 1.3rem;
+    margin: 0 0 1 5px
     /* height: auto; */
-    /* margin: 20 10px 300px; */
 }
 
 .article-image {
@@ -109,7 +116,7 @@ article p {
 
 footer {
     text-align: center;
-    /* background-color: #333; */
+    background-color: #ffc857;
     color: white;
     padding: 10px;
     display: grid;
