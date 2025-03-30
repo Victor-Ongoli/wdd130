@@ -58,7 +58,7 @@ h1, h2 {
     padding: 1rem;
 }
 
-article {
+section {
     position: absolute;
     color: pink;
     width: 85%;
@@ -71,7 +71,7 @@ article {
     opacity: 0.9;
 }
 
-.article-image {
+.section-image {
     position: absolute;
     top: 33px;
     float: right;
