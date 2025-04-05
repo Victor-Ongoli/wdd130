@@ -37,6 +37,7 @@ header {
     align-items: stretch;
     border: 1px solid black;
     gap: 20px;
+    background-color: #140122
 }
 
 table {
@@ -249,7 +250,6 @@ footer {
     border: 3px dashed blue;
     color: black;
     font-size: 15px;
-    padding: 5px solid #eee;;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -265,10 +265,8 @@ footer {
 }
 
 .copy {
-    position: flex;
     right: 40px;
     padding-right: 50px;
-    /* text-align: center; */
 }
 
 .social {
