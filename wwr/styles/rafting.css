@@ -145,6 +145,12 @@ input[type="radio"] {
     vertical-align: bottom;
 }
 
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
 button {
     margin: 1rem;
     background-color: navy;
