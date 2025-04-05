@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rapids Water Rafters-Get to know us</title>
+    <title>Rapids Water Rafters Contact-Get to know us</title>
     <meta name="description" content="Water Rafting Contact Information Center">
     <meta name="author" content="Hello! Here you will find all our communication channels.">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -25,6 +25,7 @@
         </ul>
     </nav>
 </header>
+<h1>Contact Information</h1>
 <main>
     <div class="reach">
             <table>
@@ -82,19 +83,19 @@
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username">
                 <label for="email">Email address: </label>
-                <input type="email" id="useremail" name="useremail">
+                <input type="email" id="email" name="email">
             </fieldset>
-            <fieldset>
+            <!-- <fieldset> -->
                 <legend>Purpose of message</legend>
                 <label for="purpose">What is your message purpose?</label>
                     <option value="inquiry">General Enquiry</option>
-                    <input type="checkbox" id="purpose" name="purpose">
+                    <input type="radio" id="purpose" name="purpose">
                     <option value="reservation">Reservation Question</option>
-                    <input type="checkbox" id="purpose" name="purpose">
+                    <input type="radio" id="purpose" name="purpose">
                     <option value="suggestion">Website Suggestion</option>
-                    <input type="checkbox" id="purpose" name="purpose">
+                    <input type="radio" id="purpose" name="purpose">
                 </select>
-            </fieldset>
+            <!-- </fieldset> -->
             <fieldset>
                 <legend>Message</legend>
                 <label for="message">Leave a message?</label>
@@ -102,9 +103,10 @@
             </fieldset>
             <fieldset>
                 <legend>Optional</legend>
-                <label for="">Please subcribe me to the monthly newsletter</label>
+                <label for="newsletter">Please subcribe me to the monthly newsletter</label>
                 <input type="checkbox" id="newsletter" name="newsletter">
             </fieldset>
+            <label for="submit"></label>
             <button type="submit">Confirm</button>
         </form>
     </div>
