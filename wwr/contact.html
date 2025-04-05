@@ -87,13 +87,15 @@
             </fieldset>
             <fieldset>
                 <legend>Purpose of message</legend>
-                <label for="purpose">What is your message purpose?</label>
-                    <option value="inquiry">General Enquiry</option>
-                    <input type="radio" id="inquiry" name="inquiry">
-                    <option value="reservation">Reservation Question</option>
-                    <input type="radio" id="reservation" name="reservation">
-                    <option value="suggestion">Website Suggestion</option>
-                    <input type="radio" id="suggestion" name="suggestion">
+                <select name="purpose" id="purpose">
+                    <label for="purpose">What is your message purpose?</label>
+                        <option value="inquiry">General Enquiry</option>
+                        <input type="radio" id="inquiry" name="inquiry">
+                        <option value="reservation">Reservation Question</option>
+                        <input type="radio" id="reservation" name="reservation">
+                        <option value="suggestion">Website Suggestion</option>
+                        <input type="radio" id="suggestion" name="suggestion">
+                </select>
             </fieldset>
             <fieldset>
                 <legend>Message</legend>
