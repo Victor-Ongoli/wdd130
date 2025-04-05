@@ -87,15 +87,24 @@
             </fieldset>
             <fieldset>
                 <legend>Purpose of message</legend>
-                <label for="purpose">What is your message purpose?</label>
-                <select id="purpose" name="purpose">
+                <label>
+                    <input type="radio" id="inquiry" name="inquiry">Inquiry
+                </label>
+                <label>
+                    <input type="radio" id="reservation" name="reservation">Reservation
+                </label>
+                <label>
+                    <input type="radio" id="suggestion" name="suggestion">Suggestions
+                </label>
+                <!-- <label for="purpose">What is your message purpose?</label> -->
+                <!-- <select id="purpose" name="purpose"> -->
                     <!-- <option value="inquiry">General Enquiry</option> -->
-                    <input type="radio" id="inquiry" name="inquiry">
+                    <!-- <input type="radio" id="inquiry" name="inquiry"> -->
                     <!-- <option value="reservation">Reservation Question</option> -->
-                    <input type="radio" id="reservation" name="reservation">
+                    <!-- <input type="radio" id="reservation" name="reservation"> -->
                     <!-- <option value="suggestion">Website Suggestion</option> -->
-                    <input type="radio" id="suggestion" name="suggestion">
-                </select>
+                    <!-- <input type="radio" id="suggestion" name="suggestion"> -->
+                <!-- </select> -->
             </fieldset>
             <fieldset>
                 <legend>Message</legend>
@@ -110,7 +119,6 @@
                 <label for="newsletter">Please subcribe me to the monthly newsletter</label>
                 <input type="checkbox" id="newsletter" name="newsletter">
             </fieldset>
-            <!-- <label for="submit">submit</label> -->
             <button type="submit">Confirm</button>
         </form>
     </div>
