@@ -62,7 +62,7 @@ thead th {
 }
 
 th, td {
-    border: 1px solid rgb(160 160 160);
+    border: 1px solid black;
     padding: 1px 5px;
 }
 
@@ -154,7 +154,7 @@ input[type="checkbox"] {
 button {
     margin: 1rem;
     background-color: navy;
-    color: #fff;
+    /* color: #fff; */
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -198,7 +198,7 @@ h1, h2 {
 
 section {
     position: absolute;
-    color: pink;
+    /* color: pink; */
     width: 85%;
     height: 30%;
     top: 250px;
@@ -254,7 +254,7 @@ section {
 footer {
     background-color: #ffc857;
     position: relative;
-    border: 3px dashed blue;
+    /* border: 3px dashed blue; */
     color: black;
     font-size: 15px;
     display: flex;
@@ -263,6 +263,7 @@ footer {
 
 .frame a {
     text-decoration: none;
+    color: blue;
 }
 
 .frame {
@@ -274,6 +275,7 @@ footer {
 .copy {
     right: 40px;
     padding-right: 50px;
+    color: blue;
 }
 
 .social {
