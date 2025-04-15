@@ -6,7 +6,6 @@
 
 }
 
-/* heading */
 header {
     display: grid;
     grid-template-columns: auto 1fr ;
@@ -41,7 +40,6 @@ header {
     width: 70px;
     height: 30px;
 }
-/* end of headings */
 
 h1, h2, h3 {
     color: black;
@@ -56,7 +54,6 @@ body {
     background-position: center;
 }
 
-/* trips images*/
 .images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -68,9 +65,7 @@ body {
     width: 400px;
     height: 300px;
 }
-/* end of trips images */
 
-/* contact table*/
 .reach {
     display: grid;
     grid-template-columns: 70% 30%;
@@ -110,9 +105,7 @@ iframe {
     margin: 1rem;
     align-items: center;
 }
-/* end of contact table */
 
-/* contact images */
 .snaps {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr auto;
@@ -124,7 +117,6 @@ iframe {
     width: 250px;
     height: 150px;
 }
-/* end of contact images */
 
 .intro {
     font-weight: 700;
@@ -134,7 +126,6 @@ iframe {
     padding: 1rem;
 }
 
-/* conctact form */
 form {
     width: 850px;
     margin: 0 auto;
@@ -194,9 +185,7 @@ button {
 button:hover {
     background-color: purple;
 }
-/* end of contact form */
 
-/* trip table */
 .table {
     display: grid;
     grid-template-columns: 100%;
@@ -231,7 +220,6 @@ td {
     text-decoration: none;
 }
 
-/* start of home form */
 form {
     color: gold;
     width: 1000px;
@@ -281,9 +269,7 @@ button {
 button:hover {
     background-color: #004F2D;
 }
-/* end of form */
 
-/* redirect-trips */
 .redirect-trips {
     justify-content: space-around;
     align-items: center;
@@ -301,7 +287,6 @@ button:hover {
     text-decoration: none;
     color: gold;
 }
-/* end of redirect-trips */
 
 .end {
     font-weight: 700;
@@ -310,7 +295,6 @@ button:hover {
     text-align: center;
 }
 
-/* homepage content-piece */
 .content-piece {
     display: grid;
     grid-template-columns: 50% 1fr;
@@ -323,7 +307,6 @@ button:hover {
 }
 
 .image2 {
-    /* border: 5px solid olive; */
     width: 400px;
     height: 300px;
 }
@@ -334,9 +317,7 @@ button:hover {
     border: 3px solid indigo;
     grid-column: auto;
 }
-/* conclusion of homepage content-piece */
 
-/* about  */
 .hero {
     position: relative;
     width: 100%;
@@ -388,7 +369,6 @@ section {
     text-align: center;
 }
 
-/* about history section */
 .history {
     display: flex;
     justify-content: space-around;
@@ -416,7 +396,6 @@ section {
     padding: 30px;
     margin: 0 0 130px;
 }
-/* conclusion of history section */
 
 .adventure {
     display: grid;
@@ -430,10 +409,7 @@ section {
     width: 100px;
     height: 100px;
 }
-/* conclusion about */
 
-
-/* footer */
 footer {
     background-color: #26532B;
     position: relative;
@@ -442,7 +418,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
 }
-/* wireframe */
+
 .frame a {
     text-decoration: none;
     color: gold;
@@ -453,7 +429,6 @@ footer {
     left: 50px;
     padding-top: 30px;
 }
-/* end of wireframe */
 
 .copy {
     right: 40px;
@@ -472,4 +447,3 @@ footer {
     width: 30px;
     padding-bottom: 5px;
 }
-/* footer end */
