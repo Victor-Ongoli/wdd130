@@ -1,46 +1,84 @@
 :root {
-    /* background-color: #28264b; */
-    /* font-family: "Rock salt"; */
+    background-color: #73956F;
+    font-size: 1.2rem;
     font-weight: 400;
     padding: 1rem;
-    /* display: grid; */
+
 }
 
+/* heading */
 header {
     display: grid;
-    grid-template-columns: auto 1fr;
-    justify-items: stretch;
+    grid-template-columns: auto 1fr ;
     align-items: center;
+    background-color: #26532B;
 }
 
 .logo-image {
     grid-column: 1;
     display: flex;
-    margin-left: 100px;
-    width: 100px;
-    height: 100px;
 }
 
 .navigation ul {
+    grid-column: 2;
     display: flex;
-    justify-content: center;
     list-style: none;
 }
 
-.navigation a {
-    color: rgb(224, 224, 222);
-    padding: 10px;
-    text-decoration: none;
-    font-size: 1.2rem;
+.navigation li {
+    flex: 1 1 100%;
+    justify-items: center;
+    align-items: stretch;
 }
 
+.navigation a {
+    text-decoration: none;
+    color: gold;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 20px;
+    width: 70px;
+    height: 30px;
+}
+/* end of headings */
+
+h1, h2, h3 {
+    color: black;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-image: url('images/newest.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* trips images*/
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    background-color: lavender;
+}
+
+.images img {
+    width: 400px;
+    height: 300px;
+}
+/* end of trips images */
+
+/* contact table*/
 .reach {
-    display: flex;
+    display: grid;
+    grid-template-columns: 70% 30%;
     justify-content: space-around;
     align-items: stretch;
     border: 1px solid black;
     gap: 20px;
-    background-color: #044545
+    background-color: #0e3204;
 }
 
 table {
@@ -51,17 +89,12 @@ table {
     letter-spacing: 1px;
     padding: 5px;
     margin: 0.5px;
-    /* background-color: #CC5500; */
+    background-color: #065527;
 }
 
 caption {
-    border: 2px solid black;
     padding: 9px;
     font-weight: 700;
-}
-
-thead th {
-    background-color: #000;
 }
 
 th, td {
@@ -75,27 +108,12 @@ td {
 
 iframe {
     margin: 1rem;
+    align-items: center;
 }
+/* end of contact table */
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Rock salt";
-    font-size: 1.2rem;
-    color: #f5f5f2;
-}
-
-h1 {
-    margin: 1rem;
-    font-size: 1.5rem;
-    color: navy;
-    text-align: center;
-}
-
+/* contact images */
 .snaps {
-    border: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr auto;
     gap: 5px;
@@ -106,7 +124,17 @@ h1 {
     width: 250px;
     height: 150px;
 }
+/* end of contact images */
 
+.intro {
+    font-weight: 700;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* conctact form */
 form {
     width: 850px;
     margin: 0 auto;
@@ -157,7 +185,6 @@ input[type="checkbox"] {
 button {
     margin: 1rem;
     background-color: navy;
-    /* color: #fff; */
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -167,18 +194,149 @@ button {
 button:hover {
     background-color: purple;
 }
+/* end of contact form */
 
-.adventure img {
-    width: 120px;
-    height: 120px;
+/* trip table */
+.table {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 4px;
+    gap: 100px;
 }
 
-h1, h2 {
-    font-family: "Winky Sans", sans-serif;
-    font-weight: 600;
-    color: yellow;
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 0.5px;
 }
 
+.caption {
+    border: 2px solid black;
+    padding: 9px;
+    font-weight: 700;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 1px 5px;
+}
+
+td {
+    text-align: center;
+}
+
+.redirect-contacts a {
+    text-decoration: none;
+}
+
+/* start of home form */
+form {
+    color: gold;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.9rem;
+    background-color: #26532B;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: none;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: "Rock salt"
+}
+
+label {
+    font-size: 1.1em;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    background-color: #47682C;
+    color: white;
+}
+
+button {
+    margin: 1rem;
+    background-color: #47682C;
+    color: gold;
+    border: 2px solid #1E212B;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #004F2D;
+}
+/* end of form */
+
+/* redirect-trips */
+.redirect-trips {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redirect-trips p {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.redirect-trips a {
+    text-decoration: none;
+    color: gold;
+}
+/* end of redirect-trips */
+
+.end {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+/* homepage content-piece */
+.content-piece {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    background-color: #26532B;
+}
+
+.image1 {
+    width: 400px;
+    height: 300px;
+}
+
+.image2 {
+    /* border: 5px solid olive; */
+    width: 400px;
+    height: 300px;
+}
+
+.content-piece p {
+    display: flex;
+    text-align: center;
+    border: 3px solid indigo;
+    grid-column: auto;
+}
+/* conclusion of homepage content-piece */
+
+/* about  */
 .hero {
     position: relative;
     width: 100%;
@@ -186,10 +344,23 @@ h1, h2 {
     display: grid;
 }
 
-.hero image {
+.hero-image {
     display: block;
     width: 100%;
+    height: 100%;
     height: auto;
+}
+
+section {
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    bottom: 250px;
+    margin: 0 0 0 100px;
+    display: flex;
+    background-color: #108015;
+    padding: 1rem;
+    opacity: 0.9;
 }
 
 .hero-h1 {
@@ -197,93 +368,84 @@ h1, h2 {
     right: 500px;
     font-size: 2em;
     padding: 1rem;
+    color: white;
 }
 
-.say {
-    align-items: center;
-    gap: 5px;
+.hero-h3 {
+    text-align: center;
 }
 
-section {
+.section-image {
     position: absolute;
-    width: 85%;
-    height: 30%;
-    top: 250px;
-    margin: 0 0 0 100px;
-    display: flex;
-    background-color: #19647e;
-    padding: 1rem;
-    opacity: 0.9;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-}
-
-.container-image {
-    /* order: 2; */
-    max-width: 300px;
-    height: auto;
-}
-
-.section image {
-    position: absolute;
-    top: 15px;
-    float: right;
-    margin: 0 0 0 900px;
+    bottom: 35px;
+    margin: 0 0 0 1000px;
     border-radius: 10px;
 }
 
+.section-p {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+
+/* about history section */
 .history {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    border: 3px solid green;
+    background-color: #004F2D;
 }
 
 .first {
     padding: 30px;
     display: block;
+    margin: 0 0 130px;
 }
 
 .history-image {
-    width: 400px;
+    width: 450px;
     height: auto;
-    display: block;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .second {
     display: block;
     padding: 30px;
+    margin: 0 0 130px;
 }
+/* conclusion of history section */
 
 .adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
     flex-direction: column;
     gap: 10px;
+    background-color: #004F2D;
 }
 
 .adventure img {
     width: 100px;
     height: 100px;
 }
+/* conclusion about */
 
+
+/* footer */
 footer {
-    background-color: #ffc857;
+    background-color: #26532B;
     position: relative;
-    /* border: 3px dashed blue; */
-    color: black;
+    color: gold;
     font-size: 15px;
     display: flex;
     flex-direction: row-reverse;
 }
-
+/* wireframe */
 .frame a {
     text-decoration: none;
-    color: blue;
+    color: gold;
 }
 
 .frame {
@@ -291,11 +453,12 @@ footer {
     left: 50px;
     padding-top: 30px;
 }
+/* end of wireframe */
 
 .copy {
     right: 40px;
     padding-right: 50px;
-    color: blue;
+    color: gold;
 }
 
 .social {
@@ -307,5 +470,6 @@ footer {
 .social a img {
     text-align: right;
     width: 30px;
-    /* margin: 0 5px solid #eee;; */
+    padding-bottom: 5px;
 }
+/* footer end */
