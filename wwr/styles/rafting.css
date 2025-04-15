@@ -1,14 +1,15 @@
 :root {
-    background-color: #28264b;
-    font-family: "Rock salt";
+    /* background-color: #28264b; */
+    /* font-family: "Rock salt"; */
     font-weight: 400;
     padding: 1rem;
-    display: grid;
+    /* display: grid; */
 }
 
 header {
     display: grid;
     grid-template-columns: auto 1fr;
+    justify-items: stretch;
     align-items: center;
 }
 
@@ -16,6 +17,8 @@ header {
     grid-column: 1;
     display: flex;
     margin-left: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .navigation ul {
@@ -196,9 +199,13 @@ h1, h2 {
     padding: 1rem;
 }
 
+.say {
+    align-items: center;
+    gap: 5px;
+}
+
 section {
     position: absolute;
-    /* color: pink; */
     width: 85%;
     height: 30%;
     top: 250px;
@@ -209,9 +216,22 @@ section {
     opacity: 0.9;
 }
 
-.section-image {
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-image {
+    /* order: 2; */
+    max-width: 300px;
+    height: auto;
+}
+
+.section image {
     position: absolute;
-    top: 33px;
+    top: 15px;
     float: right;
     margin: 0 0 0 900px;
     border-radius: 10px;

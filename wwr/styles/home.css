@@ -1,0 +1,495 @@
+:root {
+    background-image: "images/newset.jpg";
+    background-color: #73956F;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1rem;
+
+}
+
+/* heading */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    align-items: center;
+    background-color: #26532B;
+}
+
+.logo-image {
+    grid-column: 1;
+    display: flex;
+}
+
+.navigation ul {
+    grid-column: 2;
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+    justify-items: center;
+    align-items: stretch;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: gold;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 20px;
+    width: 70px;
+    height: 30px;
+}
+/* end of headings */
+
+h1, h2, h3 {
+    color: black;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-image: url('images/newest.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* trips images*/
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    background-color: lavender;
+}
+
+.images img {
+    /* justify-content: space-between; */
+    /* align-items: stretch; */
+    width: 400px;
+    height: 300px;
+}
+/* end of trips images */
+
+/* contact table*/
+.reach {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 1px solid black;
+    gap: 20px;
+    background-color: #0e3204;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: "Rock salt";
+    font-size: 0.9rem;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 0.5px;
+    background-color: #065527;
+}
+
+caption {
+    padding: 9px;
+    font-weight: 700;
+}
+
+thead th {
+    background-color: #000;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 1px 5px;
+}
+
+td {
+    text-align: center;
+}
+
+/* tr { */
+    /* background-color: ; */
+/* } */
+
+iframe {
+    margin: 1rem;
+    align-items: center;
+}
+/* end of contact table */
+
+/* contact images */
+.snaps {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    gap: 5px;
+}
+
+.snaps img {
+    justify-content: flex-end;
+    width: 250px;
+    height: 150px;
+}
+/* end of contact images */
+
+.intro {
+    font-weight: 700;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    /* background-color: lavender; */
+    /* opacity: 0.5; */
+}
+
+/* conctact form */
+form {
+    width: 850px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: "Rock salt"
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    /* color: #fff; */
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: purple;
+}
+/* end of contact form */
+
+/* trip table */
+.table {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 4px;
+    gap: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 0.5px;
+    /* color: gold; */
+}
+
+.caption {
+    border: 2px solid black;
+    padding: 9px;
+    font-weight: 700;
+    /* color: gold; */
+}
+
+thead th {
+    background-color: #0e3204;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 1px 5px;
+}
+
+td {
+    text-align: center;
+}
+
+.redirect-contacts a {
+    text-decoration: none;
+}
+
+/* start of home form */
+form {
+    color: gold;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.9rem;
+    background-color: #26532B;
+    /* display: grid; */
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: none;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.3em;
+}
+
+/* label, input, button, select, textarea { */
+    /* font-family: "Rock salt" */
+/* } */
+
+label {
+    /* text-align: right; */
+    /* padding-right: 5rem; */
+    font-size: 1.1em;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    background-color: #47682C;
+    color: white;
+}
+
+button {
+    margin: 1rem;
+    background-color: #47682C;
+    color: gold;
+    border: 2px solid #1E212B;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #004F2D;
+}
+/* end of form */
+
+/* redirect-trips */
+.redirect-trips {
+    /* border: 3px solid plum; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redirect-trips p {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+    /* background-color: black; */
+    /* opacity: 0.9; */
+}
+
+.redirect-trips a {
+    text-decoration: none;
+    color: gold;
+}
+/* end of redirect-trips */
+
+.end {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* homepage content-piece */
+.content-piece {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    background-color: #26532B;
+    /* border: 5px solid ;  */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.image1 {
+    /* border: 5px solid olive; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    width: 400px;
+    height: 300px;
+}
+
+.image2 {
+    /* border: 5px solid olive; */
+    width: 400px;
+    height: 300px;
+}
+
+.content-piece p {
+    display: flex;
+    text-align: center;
+    border: 3px solid indigo;
+    grid-column: auto;
+}
+/* conclusion of homepage content-piece */
+
+/* about  */
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* width: 100%; */
+    /* height: 100%; */
+    display: grid;
+}
+
+.hero-image {
+    display: block;
+    /* grid-template-columns: 100%; */
+    width: 100%;
+    height: 100%;
+    height: auto;
+}
+
+section {
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    bottom: 250px;
+    margin: 0 0 0 100px;
+    display: flex;
+    background-color: #108015;
+    padding: 1rem;
+    opacity: 0.9;
+}
+
+.hero-h1 {
+    position: absolute;
+    right: 500px;
+    font-size: 2em;
+    padding: 1rem;
+}
+
+.section-image {
+    position: absolute;
+    bottom: 35px;
+    margin: 0 0 0 1000px;
+    border-radius: 10px;
+}
+
+/* about history section */
+.history {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 3px solid green;
+}
+
+.first {
+    padding: 30px;
+    display: block;
+    margin: 0 0 130px;
+}
+
+.history-image {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+.second {
+    display: block;
+    padding: 30px;
+    margin: 0 0 130px;
+}
+/* conclusion of history section */
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adventure img {
+    width: 100px;
+    height: 100px;
+}
+/* conclusion about */
+
+
+/* footer */
+footer {
+    background-color: #26532B;
+    position: relative;
+    color: gold;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* wireframe */
+.frame a {
+    text-decoration: none;
+    color: gold;
+}
+
+.frame {
+    position: absolute;
+    left: 50px;
+    padding-top: 30px;
+}
+/* end of wireframe */
+
+.copy {
+    right: 40px;
+    padding-right: 50px;
+    color: gold;
+}
+
+.social {
+    text-decoration: none;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.social a img {
+    text-align: right;
+    width: 30px;
+    padding-bottom: 5px;
+}
+/* footer end */
