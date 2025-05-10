@@ -1,0 +1,18 @@
+:root {
+    background-image: url('../images/little-boy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: tan;
+    border: 5px dashed black;
+    display: grid;
+}
+
+body {
+    display: grid;
+}
+
+header {
+    grid-template-columns: auto 1fr;
+}
+
